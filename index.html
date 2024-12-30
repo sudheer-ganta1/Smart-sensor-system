@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Air Quality Monitor</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="monitor">
+      <h1>Air Quality Monitor</h1>
+      <button id="connect-btn">Connect to Device</button>
+
+      <div class="sensor-grid">
+        <div class="sensor-card">
+          <h3>Temperature</h3>
+          <p id="temp-value">--°C</p>
+          <span id="temp-status" class="status-indicator"></span>
+        </div>
+        <div class="sensor-card">
+          <h3>Humidity</h3>
+          <p id="humidity-value">--%</p>
+          <span id="humidity-status" class="status-indicator"></span>
+        </div>
+        <div class="sensor-card">
+          <h3>CO2 Level</h3>
+          <p id="co2-value">-- ppm</p>
+          <span id="co2-status" class="status-indicator"></span>
+        </div>
+        <div class="sensor-card">
+          <h3>VOC Level</h3>
+          <p id="voc-value">-- ppb</p>
+          <span id="voc-status" class="status-indicator"></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="style.js"></script>
+  </body>
+</html>
